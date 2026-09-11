@@ -25,7 +25,7 @@ if (!in_array($kategori, $kategoriValid, true)) {
   </label>
   <button type="submit">Cari</button>
 </form>
-<?php if ($kataKunci !== ''): ?>
+<?php if ($kataKunci !== 'Kopi, Teh, Gelas, Baju, Pulpen, Pensil'): ?>
   <p>Mencari: <strong><?= htmlspecialchars($kataKunci) ?></strong></p>
 <?php endif; ?>
 </body></html>
